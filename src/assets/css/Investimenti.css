@@ -1,0 +1,67 @@
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.investment {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+	height: 300px;
+	width: 300px;
+}
+
+.investment h2 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 4px solid blue;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+.investment-img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.investment p {
+	font-size: 18px;
+	color: #666;
+}
+
+.donation-p {
+	font-size: 22px;
+	color: #333;
+	margin-top: 300px;
+	margin-left: 180px;
+	margin-right: 150px;
+	margin-bottom: 0px;
+}
+
+.perce {
+	color: hsl(28, 98%, 53%) !important;
+	font-weight: bold !important;
+}
+/* Aggiungi spazio inferiore al footer */
+footer {
+	margin-top: 30px;
+}

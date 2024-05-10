@@ -1,0 +1,76 @@
+/* Stili per il titolo "Contattaci" */
+h1 {
+	color: #333; /* Colore del testo */
+	font-size: 30px; /* Dimensione del testo */
+	margin-bottom: 20px; /* Spazio inferiore */
+}
+
+/* Stili per il form di contatto */
+form {
+	max-width: 300px; /* Larghezza massima del form */
+	margin-bottom: 20px; /* Spazio inferiore */
+	border: 2px solid #007bff; /* Bordo di 2px con colore blu */
+	border-radius: 10px; /* Arrotondamento dei bordi */
+	padding: 20px; /* Spaziatura interna */
+	margin-bottom: 20px; /* Spazio inferiore */
+}
+
+form div {
+	margin-bottom: 15px; /* Spazio inferiore tra i campi del form */
+}
+
+form label {
+	display: block; /* Per rendere le label su una riga separata */
+	font-weight: bold; /* Testo in grassetto */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+	width: 90%; /* Larghezza completa */
+	padding: 10px; /* Spaziatura interna */
+	border: 1px solid #ccc; /* Bordo */
+	border-radius: 5px; /* Arrotondamento dei bordi */
+}
+
+form textarea {
+	height: 100px; /* Altezza del textarea */
+}
+
+button {
+	padding: 10px 20px; /* Spaziatura interna */
+	background-color:yellow /* Colore di sfondo */
+	color: #fff; /* Colore del testo */
+	border: none; /* Nessun bordo */
+	border-radius: 5px; /* Arrotondamento dei bordi */
+	cursor: pointer; /* Cambio del cursore al passaggio sopra il bottone */
+}
+
+
+form {
+	max-width: 500px; /* Larghezza massima del form */
+	border: 4px solid #007bff; /* Bordo di 2px con colore blu */
+	border-radius: 10px; /* Arrotondamento dei bordi */
+	padding: 20px; /* Spaziatura interna */
+	margin: 0 auto; /* Centrare il form */
+}
+
+form button {
+	display: block; /* Per centrare il bottone */
+	margin: 0 auto; /* Centrare il bottone */
+	padding: 10px 20px; /* Spaziatura interna */
+	background-color: #007bff; /* Colore di sfondo */
+	color: #fff; /* Colore del testo */
+	border: none; /* Nessun bordo */
+	border-radius: 5px; /* Arrotondamento dei bordi */
+	cursor: pointer; /* Cambio del cursore al passaggio sopra il bottone */
+}
+.form-container {
+	display: flex; /* Utilizziamo flex per disporre gli elementi in colonna */
+	flex-direction: column; /* Disposizione dei figli in colonna */
+	align-items: center; /* Centra gli elementi lungo l'asse trasversale */
+	max-width: 1200px; /* Larghezza massima del form */
+	padding: 20px; /* Spaziatura interna */
+	margin: 0 auto 20px; /* Centra il form e aggiunge spazio sotto */
+}

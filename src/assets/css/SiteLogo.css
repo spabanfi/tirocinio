@@ -1,0 +1,20 @@
+.logo-parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	background-color: #56b6e2;
+	border-top: 5px solid #ced4da;
+}
+
+.logo-text {
+	text-align: center;
+	font-size: larger;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	padding-right: 100px;
+}
+img {
+	justify-content: space-between;
+}

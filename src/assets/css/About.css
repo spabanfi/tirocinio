@@ -1,0 +1,10 @@
+.tit {
+	margin-left: 200px;
+}
+.insegnanti {
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 90%;
+}

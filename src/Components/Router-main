@@ -1,0 +1,41 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+//per installare il router uscire da visual studio con CTRL C e confermare con S
+//npm install react-router-dom
+//controllare in node-modules che l'installazione è andata a buon fine (sono presenti react-router e react-router-dom)
+//riavviare react con npm run dev
+import App from './App.jsx'
+import './index.css'
+import About from './Components/About.jsx'
+import Contact from './Components/Contact.jsx'
+import Home from './Components/Home.jsx'
+import { useState } from 'react'
+//array di "corrispondenze" tra path e componenti (element)
+
+const router = createBrowserRouter ([
+{
+  path: "/",
+  element : <App/>
+},
+{
+  path: "/Home",
+  element : <Home/>
+},
+{
+  path: "/About",
+  element : <About/>
+},
+{
+  path: "/Contact",
+  element : <Contact/>
+},
+//eventuali altri elementi
+])
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+)

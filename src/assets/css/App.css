@@ -1,0 +1,53 @@
+body {
+	background-image: url("./src/assets/img/sfondo1.png");
+	background-size: cover; /* Copre l'intera area del body */
+	background-repeat: no-repeat; /* Impedisce la ripetizione dell'immagine */
+	background-attachment: fixed; /* Fissa l'immagine di sfondo durante lo scrolling */
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	font-size: 20px;
+}
+img {
+	margin: 30px;
+	border-radius: 15px;
+}
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content2 {
+	margin: 40px;
+	flex: 1;
+	font-size: 20px;
+}
+
+.video {
+	max-width: 60%;
+	height: auto;
+	border-radius: 10px;
+	margin-left: 250px;
+}
+button {
+	background-color: yellow;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 15px;
+	cursor: pointer;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	margin-left: 650px;
+	margin-top: 30px;
+}
+
+button:hover {
+	background-color: #646cff;
+}

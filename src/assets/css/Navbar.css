@@ -1,0 +1,29 @@
+.navbar {
+	background: linear-gradient(to left, #813bf2, #79e2bb);
+	padding: 20px; /* Spazio interno */
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 20;
+	padding: 20;
+}
+
+.navbar ul li {
+	display: inline; /* Visualizza gli elementi della lista in linea */
+	margin-right: 40px; /* Spazio tra gli elementi della lista */
+}
+
+.navbar ul li a {
+	color: white;
+	text-decoration: none; /* Rimuove la sottolineatura dei link */
+	font-size: 18px; /* Dimensione del carattere dei link */
+}
+
+.navbar ul li a:hover {
+	color: rgb(
+		25,
+		13,
+		151
+	); /* Cambia il colore del testo dei link al passaggio del mouse */
+}

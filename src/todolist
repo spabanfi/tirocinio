@@ -1,0 +1,25 @@
+Riguardo il progetto individuale da realizzare durante la somministrazione,esso consisterà in una spa in React con un mini database in cui registrare un paio di dati di utenti e un backend gestito da express.
+
+La parte be/db è optional, vi è un esempio fatto e finito di codice realizzato a lezione da copiare e incollare.
+
+Di seguito le specifiche.
+
+Realizzare una SPA (single page application) in React per pubblicizzare un progetto e richiedere finanziamenti.
+L’argomento del sito è a piacere: potrebbe trattarsi di una “colletta” per ristrutturare i giardini pubblici di quartiere o un edificio storico, un progetto simil-kickstarter per finanziare un film, un gioco da tavolo, un viaggio o un prodotto editoriale, oppure una raccolta di fondi a scopo sociale o di beneficenza.
+
+La SPA dovrà contenere:
+una homepage con la descrizione del progetto;
+un blog con alcuni articoli di aggiornamento sullo stato degli investimenti e/o approfondimenti sulla destinazione delle donazioni, racconti “di colore” e altri contenuti che possano “convincere” le persone a partecipare alla realizzazione del progetto;
+una pagina chi siamo dedicata al/ai promotore/i del progetto (tu oppure persone di fantasia);
+una pagina in cui sia possibile simulare la donazione di denaro e visualizzare il l’ammontare totale delle donazioni.
+
+OPTIONAL - inserire le “donazioni” in un database insieme a nome, cognome e email dell’utente che le ha effettuate per poterle visualizzare sul sito in ordine decrescente di ammontare.
+Prevedere, in fase di simulazione del pagamento, anche la possibilità per un utente di fare una donazione anonima.
+
+Consigli generali:
+utilizzare lo stack PERN visto a lezione per la realizzazione del database e della API che fornisce i dati dei finanziamenti;
+utilizzare chatGPT per i contenuti del blog e per il copy del sito: vietato rimanere bloccati davanti alla “pagina bianca”! Siamo programmatori, non copywriter!
+l’intelligenza artificiale è molto utile anche per le immagini...
+un CSS ben scritto e responsive è IMPORTANTE: dedicagli tutto il tempo che ti serve;
+prima si fa la SPA e POI si collega il db;
+la parte di memorizzazione dei dati è da considerarsi opzionale, realizzala solo se hai ancora tempo per farlo prima della consegna;
